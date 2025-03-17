@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML Lists, Images, Tables & Forms</title>
+        </head>
+        <body>
+            <h1>HTML Lists</h1>
+            <h3>Ordered Lists</h3>
+            <ol type="i" start="5">
+                <li>Software Engineering</li>
+                <li>Web Development</li>
+                <li>Python</li>
+                <li>Database</li>
+                <li>Startup Building</li>
+            </ol>
+            <h3>Un-ordered Lists</h3>
+            <ul type="circle">
+                <li>Mr. Chakin</li>
+                <li>Miss. Susan</li>
+                <li>Mr. Eddy</li>
+                <li>Mr. Gerald</li>
+                <li>Miss. Nelly</li>
+            </ul>
+            <h3>Definition Lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+                <dt>SQL</dt>
+                <dd>Structured Query Language</dd>
+            </dl>
+            <h1>HTML Images</h1>
+            <img src="car.jpg" alt="Image of a red audi" width="350" height="550">
+            <h1>HTML Tables</h1>
+            <table border="5">
+                <caption>Instructor Information</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eddy</td>
+                        <td>Lugaye</td>
+                        <td>eddy@powerlearnprojectafrica.org</td>
+                        <td>Kenya</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                    </tr>
+                </tfoot> 
+            </table>
+            <h1>HTML Forms</h1>
+            <form action="" method="">
+                <label for="name">Name:</label>
+                <input type="text" id="student_name" name="student_name" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <br><br>
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="music"> Music
+                <input type="checkbox" name="hobbies" value="art"> Art
+                <input type="checkbox" name="hobbies" value="travel"> Travel
+                <br><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Rwanda">Rwanda</option>
+                </select>
+                <br><br>
+                <label for="description">Describe yourself:</label>
+                <textarea id="description" name="description"></textarea>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="Cancel">
+            </form>
+        </body>
+    </html>
